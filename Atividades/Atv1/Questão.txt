@@ -1,0 +1,26 @@
+1) Desenhe um DER MODELO LÓGICO para o banco de dados de controle de uma biblioteca. Forneça as restrições (min, max) desse diagrama e indique todas as chaves envolvidas na solução. Observe qualquer requisito não especificado e faça as suposições apropriadas para tornar a especificação completa.  Considere os seguintes requisitos:
+
+
+ 
+
+A biblioteca tem no mínimo o controle dos livros e de seus exemplares, dos empréstimos, leitores, autores. 
+
+a. Cada livro deve ter no mínimo nenhum, no máximo vários exemplares.  
+
+b. Cada exemplar é no mínimo um livro e no máximo um livro.  
+
+c. O livro pode ter vários autores.  
+
+d. Um autor pode ter vários livros. 
+
+e. O livro deve ter uma e somente uma classificação. 
+
+f. Os empréstimos são feitos por exemplar pelos leitores, ou seja, cada empréstimo é de no máximo um exemplar e também é no máximo de um leitor. 
+
+g. O exemplar do livro pode ter sido tombado (não estar mais disponível pelos motivos de extravio ou danificado). O exemplar tem ano, editora, edição. 
+
+h. O leitor pode estar com seu cadastro bloqueado (por estar devendo devoluções). 
+
+
+
+POSTAR ARQUIVO NO FORMATO PDF OU JPG/PNG gerado pelo Workbench.  Não será considerada a pontuação de atividade enviada fora do prazo e fora deste ambiente de tarefas da turma no Teams.

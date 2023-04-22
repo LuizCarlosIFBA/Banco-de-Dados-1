@@ -1,0 +1,14 @@
+Crie um DER para o banco de dados de vendas de produtos diversos pela Internet. 
+
+Os produtos possuem nome, descrição, valor, quantidade. 
+Os produtos possuem uma classificação. 
+Cada produto tem um único fabricante, ou seja, se forem produtos semelhantes com fabricantes diferentes, são na verdade mais do que um produto. 
+Um produto pode ter vários fornecedores. E um fornecedor fornecer vários produtos. 
+Os fornecedores devem ter CNPJ, inscrição estadual, nome, endereço, bairro, cidade, estado, CEP, telefone, e-mail.  
+A nota fiscal de entrada tem o número da NF, a data, valor total. 
+A empresa dá entrada nos produtos através da nota fiscal de entrada dos fornecedores com diversos produtos, suas quantidades e valores.  
+Uma NF de entrada pode ter um ou mais produtos, um produto pode estar em uma ou mais NF de entrada. 
+Os clientes possuem CPF, nome, endereço, bairro, cidade, estado, CEP, telefone, celular, e-mail. 
+Os clientes compram um ou diversos produtos na loja. Quando eles compram recebem a nota fiscal de saída, com o número da NF, a data, valor total. 
+Uma NF de saída pode ter um ou mais produtos, um produto pode estar em uma ou mais NF de saída. Devem guardar a quantidade e valor de cada produto da nota fiscal de saída. 
+Os clientes e os administradores possuem entrada no cadastro de login, código, login, senha e tipo (cliente/adm/vendedor).  
